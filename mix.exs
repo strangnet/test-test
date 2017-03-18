@@ -28,6 +28,10 @@ defmodule Testing.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:credo, "~> 0.6.1"},
+      {:poison, "~> 3.1"},
+      {:httpoison, "~> 0.11.1"},
+    ]
   end
 end
